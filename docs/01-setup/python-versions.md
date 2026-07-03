@@ -1,7 +1,22 @@
 # Gestion des versions Python (pyenv / uv / poetry)
 
+Il ne faut pas utiiliser le Python du sytème macOS parce qu'il est ancien, partagé et risqué à être modifié. 
+On installe d'abord uv (similaire à pip) mais va gérer à la fois les versions de Python et les environnements virtuels. 
+Il est aussi plus rapide que pip et venv
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+
 !!! note "Statut"
-    :material-progress-clock: À documenter — sera rempli au fur et à mesure du projet fil rouge.
+    :material-progress-clock: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+On vérifie la bonne installation avec:
+
+```bash
+curl uv --version
+```
 
 ## Objectif
 

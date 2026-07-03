@@ -1,7 +1,7 @@
-site_name: Dev Handbook — Data Scientist vers Software Engineer
+site_name: Dev Handbook — Software Engineer Practices
 site_description: Journal de montée en compétences et bonnes pratiques de développement logiciel
-site_author: Maguette Mbaye
-repo_url: https://github.com/TON_USER/dev-handbook
+site_author: Ndèye Maguette Mbaye
+repo_url: https://github.com/maguettemb/dev-handbook
 repo_name: dev-handbook
 
 theme:
@@ -54,6 +54,7 @@ plugins:
 nav:
   - Accueil: index.md
   - Journal de bord: journal.md
+  - Bugs & résolutions: troubleshooting.md
   - 1. Setup environnement:
       - Vue d'ensemble: 01-setup/index.md
       - Terminal & shell: 01-setup/terminal.md
@@ -92,4 +93,5 @@ nav:
       - Confluence: 08-outils-entreprise/confluence.md
       - Jira: 08-outils-entreprise/jira.md
       - Elastic (logs): 08-outils-entreprise/elastic.md
-      - Absana (métriques métier): 08-outils-entreprise/absana.md
+      - Absana (métriques métier): 08-outils-entreprise/absana.md   
+

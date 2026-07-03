@@ -1,6 +1,6 @@
 # Dev Handbook
 
- <!--  Carnet de route pour la transition Data Scientist → Software Engineer, documenté au fur et à mesure d'un projet fil rouge. -->
+ <!--  Carnet de route pour être un bon Software Engineer, documenté au fur et à mesure d'un projet fil rouge. -->
 
 ## Lancer le site en local
 

@@ -87,3 +87,9 @@ nav:
   - 7. Outils IA pour développer:
       - Vue d'ensemble: 07-outils-ia/index.md
       - Comparatif outils: 07-outils-ia/comparatif.md
+  - 8. Outils d'entreprise & observabilité:
+      - Vue d'ensemble: 08-outils-entreprise/index.md
+      - Confluence: 08-outils-entreprise/confluence.md
+      - Jira: 08-outils-entreprise/jira.md
+      - Elastic (logs): 08-outils-entreprise/elastic.md
+      - Absana (métriques métier): 08-outils-entreprise/absana.md

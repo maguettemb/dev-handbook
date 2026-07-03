@@ -1,0 +1,89 @@
+site_name: Dev Handbook — Data Scientist vers Software Engineer
+site_description: Journal de montée en compétences et bonnes pratiques de développement logiciel
+site_author: Maguette Mbaye
+repo_url: https://github.com/TON_USER/dev-handbook
+repo_name: dev-handbook
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Accueil: index.md
+  - Journal de bord: journal.md
+  - 1. Setup environnement:
+      - Vue d'ensemble: 01-setup/index.md
+      - Terminal & shell: 01-setup/terminal.md
+      - Git & GitHub: 01-setup/git-github.md
+      - VS Code: 01-setup/vscode.md
+      - Gestion de Python (pyenv/uv/poetry): 01-setup/python-versions.md
+      - Claude Code: 01-setup/claude-code.md
+  - 2. Organisation d'un projet:
+      - Vue d'ensemble: 02-organisation/index.md
+      - Anatomie d'un repo: 02-organisation/anatomie-repo.md
+      - Notebook vs package: 02-organisation/notebook-vs-package.md
+      - Gestion des secrets: 02-organisation/secrets.md
+  - 3. Code propre:
+      - Vue d'ensemble: 03-code-propre/index.md
+      - Linters & formatters: 03-code-propre/linters.md
+      - Tests: 03-code-propre/tests.md
+      - Pre-commit hooks: 03-code-propre/pre-commit.md
+      - Code review: 03-code-propre/code-review.md
+  - 4. Environnements & dépendances:
+      - Vue d'ensemble: 04-environnements/index.md
+      - venv vs conda vs poetry vs uv: 04-environnements/comparatif.md
+      - Docker: 04-environnements/docker.md
+  - 5. CI/CD:
+      - Vue d'ensemble: 05-cicd/index.md
+      - Concepts de base: 05-cicd/concepts.md
+      - Pipeline type: 05-cicd/pipeline-type.md
+  - 6. Déploiement:
+      - Vue d'ensemble: 06-deploiement/index.md
+      - Kubernetes essentiels: 06-deploiement/kubernetes.md
+      - Argo CD & GitOps: 06-deploiement/argocd.md
+  - 7. Outils IA pour développer:
+      - Vue d'ensemble: 07-outils-ia/index.md
+      - Comparatif outils: 07-outils-ia/comparatif.md
